@@ -5,3 +5,4 @@ docker run -d --name nginx-server -p 8080:80 --mount type=bind,source="$(pwd)",t
 docker run -d --name nginx-server -p 8080:80 --mount type=volume,source=meuVolume,target=/app nginx
 
 docker run -d --name nginx-server -p 8080:80 -v meuVolume:/app nginx
+

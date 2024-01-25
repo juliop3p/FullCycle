@@ -3,7 +3,7 @@ version: '3'
 services:
   laravel:
     build: 
-      context: ./colocando-em-pratica/laravel
+      context: ./laravel
       dockerfile: Dockerfile.prod
     image: juliop3p/laravel:prod
     container_name: laravel
